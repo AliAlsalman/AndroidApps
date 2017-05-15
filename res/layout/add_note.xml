@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#696969" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#fff"
+            android:hint="Enter Note Title" >
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/noteEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#fff"
+            android:hint="Enter Your Note" >
+
+        </EditText>
+        
+        <Button 
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+     		android:id="@+id/pick"
+     		android:textColor="#fff"
+     		android:text="@string/pick">
+        </Button>
+
+        <EditText
+            android:id="@+id/dateEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Your Date"
+            android:textColor="#fff"
+            android:focusableInTouchMode="false" >
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/detailsEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#fff"
+            android:hint="Enter Note Details" >
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/priorityEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#fff"
+            android:hint="Enter Note Priority" >
+
+        </EditText>
+        <Button 
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+     		android:id="@+id/saveNoteButton"
+     		android:textColor="#fff"
+     		android:text="@string/savebutton">
+        </Button>
+        
+    </LinearLayout>
+    
+
+</ScrollView>
